@@ -25,12 +25,11 @@ nav {
   width: 480px;
   height: 500px;
   float: left;
-  border: 1px solid black;
 }
 
 .section2 div {
-  width: 239px;
-  height: 249px;
+  width: 240px;
+  height: 250px;
   float: left;
   border: 1px solid black;
 }
@@ -40,4 +39,48 @@ footer {
   height: 80px;
   float: left;
   border: 1px solid black;
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 768px) {
+  header {
+    width: 958px;
+    height: 100px;
+
+  }
+
+  nav {
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+
+  .section1 {
+    width: 759px;
+    height: 200px;
+    float: left;
+  }
+
+  .section1 div {
+    width: 379px;
+    height: 200px;
+    float: left;
+  } 
+
+  .section2 {
+    width: 760px;
+    height: 250px;
+    float: left;
+  }
+
+  .section2 div {
+    width: 189.5px;
+    height: 250px;
+  }
+
+  footer {
+    width: 758px;
+    height: 150px;
+  }
+
 }
