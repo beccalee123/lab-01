@@ -1,0 +1,19 @@
+header p {
+  padding: 28px 0px;
+}
+
+nav p {
+  padding: 68px 0px;
+}
+
+.section1 p {
+  padding: 55px;
+}
+
+.section2 p {
+  padding: 110px;
+}
+
+footer p {
+  padding: 30px;
+}
