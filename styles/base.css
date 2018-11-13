@@ -5,8 +5,15 @@
 body {
   width: 480px;
   height: 767px;
+  text-align: center;
 }
 
-p {
-  text-align: center;
+/* Media Query for Desktop */
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 960px;
+    width: 960px;
+    height: 700px;
+  }
+  
 }
