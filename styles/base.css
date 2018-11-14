@@ -6,6 +6,8 @@ body {
   width: 480px;
   height: 767px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Media Query for Desktop */
@@ -14,6 +16,8 @@ body {
     max-width: 960px;
     width: 960px;
     height: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 }
