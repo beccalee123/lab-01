@@ -12,9 +12,32 @@ nav {
   line-height: 125px;
 }
 
+#c {
+  background-color: lightcyan;
+}
+
+#d {
+  background-color: lightskyblue;
+}
+
 .section2 {
   line-height: 240px;
+}
+
+div:nth-child(1) {
+  background-color: teal;
+}
+
+div:nth-child(2) {
+  background-color: midnightblue;
+}
+
+div:nth-child(3) {
   background-color: cyan;
+}
+
+div:nth-child(4) {
+  background-color: azure;
 }
 
 footer {
@@ -33,19 +56,41 @@ footer {
     line-height: 600px;
     background-color: lightpink;
   }
+
+  #c {
+    background-color: orange;
+  }
+  
+  #d {
+    background-color: wheat;
+  }
+
+  div:nth-child(1) {
+    background-color: peru;
+  }
+  
+  div:nth-child(2) {
+    background-color: palevioletred;
+  }
+  
+  div:nth-child(3) {
+    background-color: goldenrod;
+  }
+  
+  div:nth-child(4) {
+    background-color: rosybrown;
+  }
   
   .section1 {
     line-height: 200px;
-    background-color: orange;
   }
   
   .section2 {
     line-height: 250px;
-    background-color: peru;
   }
   
   footer {
     line-height: 150px;
-    background-color: fuchsia;
+    background-color: indianred;
   }
 }
