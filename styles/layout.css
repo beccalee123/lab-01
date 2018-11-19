@@ -1,42 +1,42 @@
 header {
-  width: 480px;
-  height: 75px;
+  width: 100%;
+  height: 9.8%;
   text-align: center;
   float: left;
   border: 1px solid black;
 }
 
 nav {
-  width: 480px;
-  height: 150px;
+  width: 100%;
+  height: 19.6%;
   text-align: center;
   float: left;
   border: 1px solid black;
 }
 
 .section1 div {
-  height: 125px;
-  width: 480px;
+  height: 16.3%;
+  width: 100%;
   border: 1px solid black;
   float: left;
 }
 
-.section2 {
-  width: 480px;
-  height: 500px;
+/* .section2 {
+  width: 100%;
+  height: 65.4%;
   float: left;
-}
+} */
 
 .section2 div {
-  width: 240px;
-  height: 250px;
+  width: 50%;
+  height: 32.6%;
   float: left;
   border: 1px solid black;
 }
 
 footer {
-  width: 480px;
-  height: 80px;
+  width: 100%;
+  height: 10.4%;
   float: left;
   border: 1px solid black;
 }
@@ -44,43 +44,42 @@ footer {
 /* Media Query for Desktop */
 @media screen and (min-width: 768px) {
   header {
-    width: 958px;
-    height: 100px;
-
+    width: 100%;
+    height: 13%;
   }
 
   nav {
-    width: 200px;
-    height: 600px;
+    width: 20.8%;
+    height: 78.1%;
     float: left;
   }
 
-  .section1 {
-    width: 759px;
-    height: 200px;
+  /* .section1 {
+    width: 80.1%;
+    height: 26%;
     float: left;
-  }
+  } */
 
   .section1 div {
-    width: 379px;
-    height: 200px;
+    width: 39.5%;
+    height: 26%;
     float: left;
   } 
 
-  .section2 {
-    width: 760px;
-    height: 250px;
+  /* .section2 {
+    width: 80.1%;
+    height: 32.6%;
     float: left;
-  }
+  } */
 
   .section2 div {
-    width: 189.5px;
-    height: 250px;
+    width: 19.8%;
+    height: 32.6%;
   }
 
   footer {
-    width: 758px;
-    height: 150px;
+    width: 79.2%;
+    height: 19.5%;
   }
 
 }

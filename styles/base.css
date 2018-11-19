@@ -3,8 +3,8 @@
 }
 
 body {
-  width: 480px;
-  height: 767px;
+  /* width: 480px;
+  height: 767px; */
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -14,8 +14,8 @@ body {
 @media screen and (min-width: 768px) {
   body {
     max-width: 960px;
-    width: 960px;
-    height: 700px;
+    /* width: 960px;
+    height: 700px; */
     margin-left: auto;
     margin-right: auto;
   }
