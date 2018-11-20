@@ -35,6 +35,44 @@ footer {
   background-color: aquamarine;
 }
 
+@media screen and (min-width: 600px) {
+  header {
+    background-color: gray;
+  }
+  
+  nav {
+    background-color: olive;
+  }
+
+  #c {
+    background-color: cadetblue;
+  }
+  
+  #d {
+    background-color: olivedrab;
+  }
+
+  div:nth-child(1) {
+    background-color: darkslategray;
+  }
+  
+  div:nth-child(2) {
+    background-color: seagreen;
+  }
+  
+  div:nth-child(3) {
+    background-color: teal;
+  }
+  
+  div:nth-child(4) {
+    background-color: darkolivegreen;
+  }
+  
+  footer {
+    background-color: mediumseagreen;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   header {
@@ -74,40 +112,3 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) {
-  header {
-    background-color: gray;
-  }
-  
-  nav {
-    background-color: olive;
-  }
-
-  #c {
-    background-color: cadetblue;
-  }
-  
-  #d {
-    background-color: olivedrab;
-  }
-
-  div:nth-child(1) {
-    background-color: darkslategray;
-  }
-  
-  div:nth-child(2) {
-    background-color: seagreen;
-  }
-  
-  div:nth-child(3) {
-    background-color: teal;
-  }
-  
-  div:nth-child(4) {
-    background-color: darkolivegreen;
-  }
-  
-  footer {
-    background-color: mediumseagreen;
-  }
-}
