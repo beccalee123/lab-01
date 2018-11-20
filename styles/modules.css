@@ -1,16 +1,10 @@
 
 header {
-  /* line-height: 75px; */
   background-color: lightblue;
 }
 
 nav {
-  /* line-height: 150px; */
   background-color: cornflowerblue;
-}
-
-.section1 {
-  /* line-height: 125px; */
 }
 
 #c {
@@ -19,10 +13,6 @@ nav {
 
 #d {
   background-color: lightskyblue;
-}
-
-.section2 {
-  /* line-height: 240px; */
 }
 
 div:nth-child(1) {
@@ -42,19 +32,16 @@ div:nth-child(4) {
 }
 
 footer {
-  /* line-height: 80px; */
   background-color: aquamarine;
 }
 
 @media screen and (min-width: 768px) {
 
   header {
-    /* line-height: 100px; */
     background-color: coral;
   }
   
   nav {
-    /* line-height: 600px; */
     background-color: lightpink;
   }
 
@@ -82,16 +69,45 @@ footer {
     background-color: rosybrown;
   }
   
-  .section1 {
-    /* line-height: 200px; */
+  footer {
+    background-color: indianred;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    background-color: gray;
   }
   
-  .section2 {
-    /* line-height: 250px; */
+  nav {
+    background-color: olive;
+  }
+
+  #c {
+    background-color: cadetblue;
+  }
+  
+  #d {
+    background-color: olivedrab;
+  }
+
+  div:nth-child(1) {
+    background-color: darkslategray;
+  }
+  
+  div:nth-child(2) {
+    background-color: seagreen;
+  }
+  
+  div:nth-child(3) {
+    background-color: teal;
+  }
+  
+  div:nth-child(4) {
+    background-color: darkolivegreen;
   }
   
   footer {
-    /* line-height: 150px; */
-    background-color: indianred;
+    background-color: mediumseagreen;
   }
 }
